@@ -1,55 +1,12 @@
 <div align="center">
 
-<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @keyframes slide {
-        0% { transform: translateX(-100px); }
-        100% { transform: translateX(600px); }
-      }
-      @keyframes pulse {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.5; }
-      }
-      .robot { animation: slide 3s infinite; font-size: 48px; }
-      .text { animation: pulse 1.5s infinite; fill: #39ff14; font-weight: bold; }
-    </style>
-  </defs>
-  
-  <!-- Pulsing neon green text -->
-  <text x="150" y="50" class="text" font-size="32" text-anchor="middle">
-    ANAND GAWAI
-  </text>
-  
-  <!-- Animated robot moving across -->
-  <text x="0" y="100" class="robot" font-size="48">🤖</text>
-  
-  <!-- Bottom status -->
-  <text x="300" y="120" class="text" font-size="14" text-anchor="middle">
-    ⚡ ROS 2 | EMBEDDED | ROBOTICS ⚡
-  </text>
-</svg>
+# 🤖 ANAND GAWAI — ROBOTICIST
+
+<img src="https://github.com/joelibaceta/video-to-ascii/raw/master/images/Simpsons.apng" alt="Neon Robot Animation" width="600">
+
+## ⚡ ROS 2 | EMBEDDED | ROBOTICS ⚡
 
 </div>
-
----
-
-## <svg width="200" height="30" xmlns="http://www.w3.org/2000/svg" style="display: inline-block;">
-  <defs>
-    <style>
-      @keyframes glow {
-        0%, 100% { filter: drop-shadow(0 0 5px #39ff14); }
-        50% { filter: drop-shadow(0 0 15px #39ff14) drop-shadow(0 0 25px #0eff00); }
-      }
-      .glow-text { animation: glow 1.5s infinite; }
-    </style>
-  </defs>
-  <text x="100" y="20" class="glow-text" fill="#39ff14" font-size="18" font-weight="bold" text-anchor="middle">NODE ONLINE</text>
-</svg>
-
-```
-████████████████████████████ 100% ACTIVE
-```
 
 ---
 
@@ -109,17 +66,12 @@ hey! i'm **anand** — i make robots think & move.
 
 ---
 
-<svg width="300" height="40" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 20px auto;">
-  <defs>
-    <style>
-      @keyframes move-text {
-        0% { transform: translateX(-300px); }
-        100% { transform: translateX(300px); }
-      }
-      .moving { animation: move-text 4s infinite; }
-    </style>
-  </defs>
-  <text x="0" y="30" class="moving" fill="#39ff14" font-size="24" font-weight="bold">
-    🟢 SYSTEMS ONLINE 🟢
-  </text>
-</svg>
+<div align="center">
+
+```
+🟢 NODE STATUS: ACTIVE
+🟢 OPEN TO ROBOTICS COLLABS  
+🟢 "robots don't build themselves" — me, 2am
+```
+
+</div>
