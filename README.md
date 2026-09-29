@@ -1,107 +1,90 @@
-==============================================================
-███╗ ███╗ █████╗ ███╗ ██╗ ██████╗ ██████╗ ██╗ ██╗
-████╗ ████║██╔══██╗████╗ ██║██╔═══██╗██╔═══██╗██║ ██║
-██╔████╔██║███████║██╔██╗ ██║██║ ██║██║ ██║██║ ██║
-██║╚██╔╝██║██╔══██║██║╚██╗██║██║ ██║██║ ██║╚██╗ ██╔╝
-██║ ╚═╝ ██║██║ ██║██║ ╚████║╚██████╔╝╚██████╔╝ ╚████╔╝
-╚═╝ ╚═╝╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═════╝ ╚═════╝ ╚═══╝
-ANAND GAWAI — BUILT FOR ROBOTICS
-Robotics Software Engineer · ROS 2 · Embedded
-==============================================================
+```
+    ╔═══════════════════════════════════════════════════════╗
+    ║  ╔═╗╔╗╔╔═╗╔╗╔╔╦╗  ┌─┐╔═╗╦ ╦╔═╗╦  ║
+    ║  ╠═╣║║║║ ║║║║ ║║  │ │╠═╣║║║╠═╣║  ║
+    ║  ╩ ╩╝╚╝╚═╝╝╚╝═╩╝  └─┘╩ ╩╚╩╝╩ ╩╩═╝║
+    ║                                   ║
+    ║     roboticist. maker. dreamer   ║
+    ║     ROS2 | Embedded | 🤖        ║
+    ╚═══════════════════════════════════════════════════════╝
+```
 
-Node Status Location Email
+## yo, what's up? 👋
 
-    Neon hologram intro:
+i'm **anand** — i build things that move, see, and think for themselves. 
+been deep in robotics for a minute now. 
 
-    Node Active — Open to Roles. I make machines move, sense, and think. ROS 2 pipelines, embedded sensor bridges, and industrial control systems. Currently building a UAV digital-twin simulation at Spaceborn.
+- **currently:** working on UAV digital twins & 6-DOF arm control
+- **obsessed with:** ROS 2, embedded systems, that sweet spot where hardware meets code
+- **vibe:** open to collabs, always tinkering with something wild
 
--- TABLE OF CONTENTS
+---
 
-    About
-    Selected Work
-    Path
-    Under the Hood (Skills & Tools)
-    Contact
+## the projects that actually work 🚀
 
-─────────────────────────────────────────────────────────────────── 01 — ABOUT ─────────────────────────────────────────────────────────────────── From wiring panels to writing the nodes that read them.
+**TB3 Teleop** — browser goes *brrrr*, robot goes *brrrr* 
+```
+Flask + ROS2 → real-time /cmd_vel streaming
+```
 
-I’m an Electrical Engineering graduate turned Robotics Software Engineer. I build across the stack where hardware, firmware, and simulation meet: ROS 2 pipelines, embedded sensor bridges (ESP32 / ESP8266 / micro-ROS), and industrial automation systems. My work focuses on reliable telemetry, realistic simulation, and tight hardware-software integration.
+**Obstacle Avoidance Bot** — HC-SR04 says "nope", robot stops
+```
+ESP32 → ROS2 → actual autonomous decisions
+```
 
-Quick facts:
+**6-DOF Arm** — Onshape → MuJoCo → Python control hell
+```
+Kinematics. Jacobian stuff. Pick. Place. *Chef's kiss.*
+```
 
-    4 targeted robotics roles I pursue
-    6+ shipped projects (all with running code)
-    B.E. Electronics & Power — 2026
+**SLAM Robot (BumperBot)** — Nav2 + Gazebo brain
+```
+Maps rooms. Localizes. Doesn't crash into walls (most of the time).
+```
 
-─────────────────────────────────────────────────────────────────── 02 — FEATURED WORK ─────────────────────────────────────────────────────────────────── MARS_ROVER · AUTONOMOUS TRAVERSE ros2_distro: humble · nav2 · slam_toolbox · micro-ros/esp32 Status: traversing terrain
+**Micro-ROS Bridge** — two tiny chips talking to a ROS ecosystem
+```
+ESP32 ↔ ESP8266 ↔ ROS2 (yes, it slaps)
+```
 
-TB3 Teleop — Mobile Web Controller (2026)
+---
 
-    ROS2 · Python · Flask · Gazebo
-    Browser-based controller that streams commands to /cmd_vel in real time.
+## the toolkit 🛠️
 
-ESP32 → ESP8266 → ROS2 Bridge (2026)
+```
+╔════════════╦════════════╦════════════╗
+║   ROS 2    ║   Python   ║  Embedded  ║
+║  C++/rclpy ║ NumPy/MuJoCo║ ESP32/C++ ║
+╠════════════╬════════════╬════════════╣
+║  Gazebo    ║   Flask    ║  MicroROS  ║
+║   RViz2    ║  Onshape   ║   Kinematics║
+╚════════════╩════════════╩════════════╝
+```
 
-    Embedded C++ · ROS2 · micro-ROS
-    Lightweight bridge enabling two low-cost sensor chips to talk and feed ROS 2.
+**also:** MATLAB, Electrical Design, Path Planning, that one time I built a labyrinth solver
 
-ROS2 Ultrasonic Obstacle Detection (2026)
+---
 
-    rclpy · ESP32 · HC-SR04 · Python
-    Real-time distance streaming: HC-SR04 → ESP32 → serial → ROS 2 /distance topic.
+## real quick 📋
 
-ROS2 + ESP32 Autonomous Obstacle-Avoidance Robot (2026)
+- 🎓 B.E. Electronics & Power — 2026 (CGPA: 7.62/10)
+- 🏢 worked at: CodeAlpha, Bajaj, Dhupar Control
+- 📦 6+ shipped projects (all got code that actually runs)
+- 🎖️ MATLAB Onramp 100%, Industrial Robotics cert, µController workshop
 
-    ROS2 · ESP32 WROOM · HC-SR04 · DC Motor
-    Four cooperating nodes: sensor → brain → motor → display. Decision loop for STOP/RUN.
+---
 
-6-DOF Robotic Arm Simulation & Control (2026)
+## hit me up 💬
 
-    Onshape · MuJoCo · Python · NumPy · ROS2 · Gazebo
-    CAD-to-sim pipeline with forward/inverse kinematics, Jacobian control, and pick-and-place workflows.
+📧 **anandgawai123456@gmail.com**  
+📱 **+91 9130139669**  
+🌐 **[portfolio](https://anandgawai123456-glitch.github.io/)** | **[linkedin](https://linkedin.com/in/anand-gawai)** | **[github](https://github.com/anandgawai123456-glitch)**
 
-BumperBot — Autonomous Navigation & SLAM (2026)
+---
 
-    ROS2 · Nav2 · Gazebo · RViz2 · Python · C++
-    Full navigation stack: SLAM, localization, global/local costmaps, and path planning.
-
-─────────────────────────────────────────────────────────────────── 03 — PATH (SELECTED ROLES & TIMELINE) ─────────────────────────────────────────────────────────────────── Jul 2026 — Present · Spaceborn (Remote)
-
-    Building a ROS 2-based UAV telemetry simulator (ANSA Digital Twin).
-    Developed battery digital-twin, configurable powertrain subsystem, and telemetry pipelines.
-
-Sep 2026 — Present · CodeAlpha (Remote)
-
-    End-to-end 6-DOF arm design: Onshape CAD → MuJoCo simulation → Python controls.
-
-Jan 2026 — Jun 2026 · Dhupar Control & Automation (Pune)
-
-    Electrical panel design, pricing, and automation system support.
-
-Jul 2025 — Dec 2025 · Bajaj Skill Training Center (Wardha)
-
-    Industrial robot programming, AMR navigation, collision-free path planning.
-
-─────────────────────────────────────────────────────────────────── 04 — UNDER THE HOOD — SKILLS & TOOLS ─────────────────────────────────────────────────────────────────── Robotics : ROS 2 (Humble) · Nav2 · SLAM · Gazebo · RViz2 · URDF · MuJoCo Programming: Python · C++ · NumPy · MATLAB · SWI-Prolog Embedded : ESP32 · ESP8266 · micro-ROS · HC-SR04 · Firmware (C/C++) Industrial: Fanuc RoboGuide · Mitsubishi RT ToolBox3 · SCARA · AMR systems Tools : Git · GitHub · VS Code · Ubuntu · Onshape · AutoCAD · Flask
-
-ASCII skills matrix (neon-style): ┌────────────┬────────────┬────────────┐ │ ROS 2 │ Python │ Embedded │ │ █████████ │ ████████ │ ███████ │ └────────────┴────────────┴────────────┘
-
-─────────────────────────────────────────────────────────────────── 05 — EDUCATION & CERTIFICATIONS ─────────────────────────────────────────────────────────────────── B.E. Electrical Engineering — P. R. Pote Patil College of Engineering & Management (2021–2025)
-
-    Electronics & Power · CGPA 7.62/10
-
-Certifications:
-
-    MATLAB Onramp — 100% (MathWorks)
-    Industrial Robotics — Bajaj Skill Training Center
-    Microcontroller Workshop — MDB Electrosoft
-
-─────────────────────────────────────────────────────────────────── 06 — CONTACT ─────────────────────────────────────────────────────────────────── Let's build something that moves.
-
-    Email: anandgawai123456@gmail.com
-    Phone: +91 9130139669
-    GitHub: github.com/anandgawai123456-glitch
-    Portfolio: https://anandgawai123456-glitch.github.io/
-    LinkedIn: linkedin.com/in/anand-gawai
-
-© 2026 ANAND GAWAI — BUILT FOR ROBOTICS. NODE STATUS: ACTIVE.
+```
+    ╔═══════════════════════════════════════════════════════╗
+    ║  node: ACTIVE  |  status: OPEN TO COLLABS 🎮         ║
+    ║  "robots don't build themselves" — me, at 2am        ║
+    ╚═══════════════════════════════════════════════════════╝
+```
