@@ -2,7 +2,6 @@
 
 # 🤖 ANAND GAWAI — ROBOTICIST
 
-ascii-image-converter /home/anand/Downloads/images12.jpeg
    .. .....:.      .       .................  ...=##+:  
   .  ....:: ..    ..:=-   .:.............:...... +%++@: 
     ......  .           .::::......:.............:-:+=. 
