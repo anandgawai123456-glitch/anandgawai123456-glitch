@@ -1,72 +1,3 @@
-<div align="center">
-
-# 🤖 ANAND GAWAI — ROBOTICIST
-
-
-
-## ⚡ ROS 2 | EMBEDDED | ROBOTICS ⚡
-
-</div>
-
----
-
-hey! i'm **anand** — i make robots think & move.
-
-### 🎯 **what i do:**
-- 🚀 ROS 2 pipelines that *actually work*
-- ⚡ Embedded sensors → robot brain bridges  
-- 🎮 6-DOF arm simulation + real-time control
-- 🛤️ SLAM navigation (mostly collision-free)
-- 💾 UAV digital twins & telemetry systems
-
-### **⚙️ THE TOOLKIT**
-
-```
-╔════════════════════════════════════╗
-║  ROS 2 • Python • C++ • Embedded  ║
-║  Gazebo • MuJoCo • ESP32 • STM32  ║
-║  Kinematics • Control Theory      ║
-║  6+ shipped projects • all working ║
-╚════════════════════════════════════╝
-```
-
----
-
-### **🤖 ROBOTS THAT EXIST**
-
-| Project | Tech | Status |
-|---------|------|--------|
-| **TB3 Teleop** | Flask + ROS2 | 🟢 Running |
-| **6-DOF Arm** | Onshape → MuJoCo | 🟢 Picking |
-| **Obstacle Bot** | ESP32 + Ultrasonic | 🟢 Avoiding |
-| **BumperBot SLAM** | Nav2 + Gazebo | 🟢 Mapping |
-| **Micro-ROS Bridge** | ESP32 ↔ ROS2 | 🟢 Talking |
-
----
-
-### **📊 BY THE NUMBERS**
-
-```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ 🎓 B.E. Electronics — 2026 ┃
-┃ 📦 6+ Shipped Projects      ┃
-┃ 🏢 CodeAlpha / Bajaj        ┃
-┃ 🎖️  MATLAB 100% / ROS2 ✓    ┃
-┃ 🧠 Kinematics Certified     ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
-
----
-
-### **🔗 HIT ME UP**
-
-📧 **anandgawai123456@gmail.com**  
-📱 **+91 9130139669**  
-🌐 **[Portfolio](https://anandgawai123456-glitch.github.io/)** | **[LinkedIn](https://linkedin.com/in/anand-gawai)** | **[GitHub](https://github.com/anandgawai123456-glitch)**
-
----
-
-<div align="center">
 
 ```
 🟢 NODE STATUS: ACTIVE
@@ -74,4 +5,4 @@ hey! i'm **anand** — i make robots think & move.
 🟢 "robots don't build themselves" — me, 2am
 ```
 
-</div>
+
